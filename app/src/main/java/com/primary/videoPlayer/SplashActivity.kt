@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.airbnb.lottie.LottieAnimationView
-import com.harshRajpurohit.videoPlayer.MainActivity
+
 import com.harshRajpurohit.videoPlayer.R
 
 class SplashActivity : AppCompatActivity() {

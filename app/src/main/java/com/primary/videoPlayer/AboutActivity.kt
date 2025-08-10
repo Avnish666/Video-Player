@@ -1,4 +1,4 @@
-package com.harshRajpurohit.videoPlayer
+package com.primary.videoPlayer
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -16,6 +16,6 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.title = "About"
         binding.toolbar.setNavigationOnClickListener { finish() }
         binding.aboutText.text =
-            "Developed By: Harsh H. Rajpurohit \n\nIf you want to provide feedback, I will love to hear that."
+            "Video Player App"
     }
 }

@@ -1,4 +1,4 @@
-package com.harshRajpurohit.videoPlayer
+package com.primary.videoPlayer
 
 import android.Manifest.permission.READ_EXTERNAL_STORAGE
 import android.Manifest.permission.READ_MEDIA_VIDEO
@@ -26,6 +26,7 @@ import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
+import com.harshRajpurohit.videoPlayer.R
 import com.harshRajpurohit.videoPlayer.databinding.ActivityMainBinding
 import com.harshRajpurohit.videoPlayer.databinding.ThemeViewBinding
 import com.primary.videoPlayer.SplashActivity

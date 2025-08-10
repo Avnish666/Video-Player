@@ -1,4 +1,4 @@
-package com.harshRajpurohit.videoPlayer
+package com.primary.videoPlayer
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -45,6 +45,7 @@ import com.google.android.exoplayer2.ui.DefaultTimeBar
 import com.google.android.exoplayer2.ui.TimeBar
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
+import com.harshRajpurohit.videoPlayer.R
 import com.harshRajpurohit.videoPlayer.databinding.ActivityPlayerBinding
 import com.harshRajpurohit.videoPlayer.databinding.BoosterBinding
 import com.harshRajpurohit.videoPlayer.databinding.MoreFeaturesBinding

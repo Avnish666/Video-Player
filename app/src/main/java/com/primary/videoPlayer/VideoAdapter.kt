@@ -1,4 +1,4 @@
-package com.harshRajpurohit.videoPlayer
+package com.primary.videoPlayer
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -24,6 +24,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.harshRajpurohit.videoPlayer.R
 import com.harshRajpurohit.videoPlayer.databinding.DetailsViewBinding
 import com.harshRajpurohit.videoPlayer.databinding.RenameFieldBinding
 import com.harshRajpurohit.videoPlayer.databinding.VideoMoreFeaturesBinding
