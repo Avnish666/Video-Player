@@ -3,6 +3,7 @@ package com.harshRajpurohit.videoPlayer
 import android.Manifest.permission.READ_EXTERNAL_STORAGE
 import android.Manifest.permission.READ_MEDIA_VIDEO
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+import android.animation.Animator
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Color
@@ -21,11 +22,13 @@ import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import com.harshRajpurohit.videoPlayer.databinding.ActivityMainBinding
 import com.harshRajpurohit.videoPlayer.databinding.ThemeViewBinding
+import com.primary.videoPlayer.SplashActivity
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
@@ -176,6 +179,9 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+
+
 
     private fun setFragment(fragment: Fragment) {
         currentFragment = fragment

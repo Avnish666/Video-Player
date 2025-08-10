@@ -65,6 +65,8 @@ dependencies {
 
     //for doubleTapFeature
     implementation(libs.doubleTapPlayerView)
+    val lottieVersion = "3.4.0"
+    implementation("com.airbnb.android:lottie:$lottieVersion")
 
     //custom chrome tabs for integrating youtube
     implementation(libs.androidx.browser)
